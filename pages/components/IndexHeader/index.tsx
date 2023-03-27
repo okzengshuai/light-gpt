@@ -75,7 +75,7 @@ const IndexHeader: React.FC<{
 
             <div className={styles.siteIntroduction}>
                 <div className={styles.title}>
-                    <span className={styles.item}>Light</span>
+                    <span className={styles.item}>TaoTie</span>
                     <span className={styles.item}>GPT</span>
                 </div>
                 <div className={styles.description}>
@@ -85,12 +85,12 @@ const IndexHeader: React.FC<{
             <div className={styles.sideMenus}>
                 <i
                     className="fab fa-github"
-                    onClick={() => {
+                   /* onClick={() => {
                         window.open(
                             'https://github.com/riwigefi/light-gpt',
                             '_blank'
                         );
-                    }}
+                    }}*/
                 ></i>
             </div>
         </div>
